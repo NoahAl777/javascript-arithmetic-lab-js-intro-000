@@ -1,18 +1,18 @@
 var number;
-function add(){
-  number += 5
+function add(n){
+  number += n
 }
 
-function subtract(){
-  number -= 3
+function subtract(n){
+  number -= n
 }
 
-function multiply(){
-  number *= 6
+function multiply(n){
+  number *= n
 }
 
-function divide(){
-  number /= 2
+function divide(n){
+  number /= n
 }
 
 function increment(){
