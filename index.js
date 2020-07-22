@@ -1,32 +1,31 @@
-var number;
-function add(n){
-  number += n
+function add(a,b){
+  a += b
 }
 
-function subtract(n){
-  number -= n
+function subtract(a,b){
+  a -= b
 }
 
-function multiply(n){
-  number *= n
+function multiply(a,b){
+  a *= b
 }
 
-function divide(n){
-  number /= n
+function divide(a,b){
+  a /= b
 }
 
-function increment(){
-  number++
+function increment(a){
+  a++
 }
 
-function decrement(){
-  number--
+function decrement(a){
+  a--
 }
 
 function makeInt(n){
-  parseInt("2.222",10)
+  parseInt(n,10)
 }
 
 function preserveDecimal(n){
-  parseFloat("80.123999")
+  parseFloat(n)
 }
