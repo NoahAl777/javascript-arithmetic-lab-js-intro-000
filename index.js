@@ -28,5 +28,5 @@ function makeInt(string){
 }
 
 function preserveDecimal(string){
-  parseFloat("8.2103")
+  parseFloat("80.123999")
 }
