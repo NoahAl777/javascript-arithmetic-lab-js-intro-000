@@ -15,6 +15,14 @@ function divide(){
   number /= 2
 }
 
+function increment(){
+  number++
+}
+
+function decrement(){
+  number--
+}
+
 function makeInt(string){
   parseInt("65",10)
 }
