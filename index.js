@@ -14,3 +14,11 @@ function multiply(){
 function divide(){
   number /= 2
 }
+
+function makeInt(string){
+  parseInt("65",10)
+}
+
+function preserveDecimal(string){
+  parseFloat("8.2103")
+}
